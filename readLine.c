@@ -1,6 +1,6 @@
 #include "main.h"
 
-void main()
+int main()
 {
 	char *buffer;
 	size_t buffsize = 32;
