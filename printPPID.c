@@ -1,6 +1,6 @@
 #include "main.h"
 
-int main()
+int printPPID()
 {
 	printf("Process ID: %d\n", getpid() );
 	printf("Parent Process ID: %d\n", getppid() );
