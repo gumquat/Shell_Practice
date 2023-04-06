@@ -1,6 +1,6 @@
 #include "main.h"
 
-int main()
+int read_line()
 {
 	char *buffer;
 	size_t buffsize = 32;
