@@ -9,6 +9,7 @@
 
 
 /* prototypes */
+int read_line();
 char **string_splitter(char *str, int *count);
 
 
