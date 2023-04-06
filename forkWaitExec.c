@@ -7,7 +7,7 @@ int main()
 	for (i = 0; i < 5; i++) 
 	{
 
-		pid = fork();
+		pid = fork(); //duplicate. child and parent continue from here
 
 		if (pid == 0) //child process 
 		{
