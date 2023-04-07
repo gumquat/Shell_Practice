@@ -3,7 +3,7 @@
 int entry_point(void)
 {
 	/* variables for ...*/
-	size_t n = 0;
+	size_t size = 0;
 	int index, count;
 	char *input, *lineptr = NULL;
 	char **commands;
@@ -47,8 +47,6 @@ int entry_point(void)
 			printf("Parent has begun working.\n");
 		}
 	}	
-
-	}
 
 	return (0);
 }

@@ -2,7 +2,7 @@
 
 //from the fork and wait example in the directory above
 
-int wait(void)
+int wait()
 {
 	pid_t childPid;
 	int holder = 10;
