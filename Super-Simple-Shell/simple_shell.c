@@ -10,7 +10,7 @@ int entry_point(void)
 	int child = 999;
 
 	//begin prompt and getline here, waits for input
-	while(true)
+	while(1)
 	{
 		printf("$ ");
 		getline(&input, &size, stdin);
