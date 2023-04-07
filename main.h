@@ -12,7 +12,7 @@
 
 /* prototypes */
 int printPPID();
-int read_line();
+int prompt_getLine();
 char **string_splitter(char *str, int *count);
 
 

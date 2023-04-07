@@ -3,7 +3,7 @@
 int readLine()
 {
 	char *buffer;
-	size_t buffsize = 32;
+	size_t buffsize = 64;
 
 	buffer = (char *)malloc(buffsize * sizeof(char));
 
