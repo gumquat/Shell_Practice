@@ -12,7 +12,7 @@
 
 
 /* prototypes */
-int wait(void);
+int wait();
 char **string_splitter(char *str, int *count);
 
 

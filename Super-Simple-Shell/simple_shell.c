@@ -3,14 +3,14 @@
 int entry_point(void)
 {
 	/* variables for ...*/
-	size_t n = 0;
+	size_t size = 0;
 	int index, count;
 	char *input, *lineptr = NULL;
 	char **commands;
 	int child = 999;
 
 	//begin prompt and getline here, waits for input
-	while(true)
+	while(1)
 	{
 		printf("$ ");
 		getline(&input, &size, stdin);
@@ -47,8 +47,6 @@ int entry_point(void)
 			printf("Parent has begun working.\n");
 		}
 	}	
-
-	}
 
 	return (0);
 }
